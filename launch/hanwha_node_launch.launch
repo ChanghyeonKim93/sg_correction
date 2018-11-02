@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="hanwha_node" name="hanwha_node" type="hanwha_node" output="screen">
+        <!--param name="image_topic_name" type="string" value="/camera/color/image_raw"/-->
+        <!--param name="debug_image" type="bool" value="true"/-->
+    </node>
+</launch>
+
